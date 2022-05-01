@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310611787609",
+    "project_id": "rnloginauth",
+    "storage_bucket": "rnloginauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310611787609:android:d4cb784347c3d596639648",
+        "android_client_info": {
+          "package_name": "com.rnloginauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310611787609-mc845fs7i4qnqcnmrbdag0u4mp9htk23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_v6ZddKDwJyymuGB1JFzf1fxsGh_ndbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310611787609-mc845fs7i4qnqcnmrbdag0u4mp9htk23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
