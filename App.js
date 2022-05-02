@@ -10,13 +10,14 @@ import {
   useColorScheme,
   View,
 } from 'react-native'
-import Routes from './src/routes'
+import Routes from './src/routes/index'
 
 const App = () => {
   return (
-    <View style={style.container}>
+    <SafeAreaView style={style.container}>
+      <StatusBar translucent backgroundColor={'#f7f7f7'}/>
       <Routes />
-    </View>
+    </SafeAreaView>
   )
 }
 
@@ -24,8 +25,7 @@ const style = StyleSheet.create({
   container: {
     flex: 1,
     height: '100%',
-    width: '100%',
-  
+    width: '100%'
   },
 })
 export default App
